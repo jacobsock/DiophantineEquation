@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABD1155529CE405700D65534 /* DiophantineEquationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD1155429CE405700D65534 /* DiophantineEquationApp.swift */; };
+		ABD1155729CE405700D65534 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD1155629CE405700D65534 /* ContentView.swift */; };
+		ABD1155929CE405C00D65534 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABD1155829CE405C00D65534 /* Assets.xcassets */; };
+		ABD1155C29CE405C00D65534 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABD1155B29CE405C00D65534 /* Preview Assets.xcassets */; };
+		ABD1156629CE405C00D65534 /* DiophantineEquationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD1156529CE405C00D65534 /* DiophantineEquationTests.swift */; };
+		ABD1157029CE405C00D65534 /* DiophantineEquationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD1156F29CE405C00D65534 /* DiophantineEquationUITests.swift */; };
+		ABD1157229CE405C00D65534 /* DiophantineEquationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD1157129CE405C00D65534 /* DiophantineEquationUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABD1156229CE405C00D65534 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABD1154929CE405700D65534 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABD1155029CE405700D65534;
+			remoteInfo = DiophantineEquation;
+		};
+		ABD1156C29CE405C00D65534 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABD1154929CE405700D65534 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABD1155029CE405700D65534;
+			remoteInfo = DiophantineEquation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABD1155129CE405700D65534 /* DiophantineEquation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiophantineEquation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD1155429CE405700D65534 /* DiophantineEquationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiophantineEquationApp.swift; sourceTree = "<group>"; };
+		ABD1155629CE405700D65534 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ABD1155829CE405C00D65534 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABD1155B29CE405C00D65534 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ABD1156129CE405C00D65534 /* DiophantineEquationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiophantineEquationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD1156529CE405C00D65534 /* DiophantineEquationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiophantineEquationTests.swift; sourceTree = "<group>"; };
+		ABD1156B29CE405C00D65534 /* DiophantineEquationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiophantineEquationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD1156F29CE405C00D65534 /* DiophantineEquationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiophantineEquationUITests.swift; sourceTree = "<group>"; };
+		ABD1157129CE405C00D65534 /* DiophantineEquationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiophantineEquationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABD1154E29CE405700D65534 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD1155E29CE405C00D65534 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD1156829CE405C00D65534 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABD1154829CE405700D65534 = {
+			isa = PBXGroup;
+			children = (
+				ABD1155329CE405700D65534 /* DiophantineEquation */,
+				ABD1156429CE405C00D65534 /* DiophantineEquationTests */,
+				ABD1156E29CE405C00D65534 /* DiophantineEquationUITests */,
+				ABD1155229CE405700D65534 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABD1155229CE405700D65534 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABD1155129CE405700D65534 /* DiophantineEquation.app */,
+				ABD1156129CE405C00D65534 /* DiophantineEquationTests.xctest */,
+				ABD1156B29CE405C00D65534 /* DiophantineEquationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABD1155329CE405700D65534 /* DiophantineEquation */ = {
+			isa = PBXGroup;
+			children = (
+				ABD1155429CE405700D65534 /* DiophantineEquationApp.swift */,
+				ABD1155629CE405700D65534 /* ContentView.swift */,
+				ABD1155829CE405C00D65534 /* Assets.xcassets */,
+				ABD1155A29CE405C00D65534 /* Preview Content */,
+			);
+			path = DiophantineEquation;
+			sourceTree = "<group>";
+		};
+		ABD1155A29CE405C00D65534 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ABD1155B29CE405C00D65534 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ABD1156429CE405C00D65534 /* DiophantineEquationTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABD1156529CE405C00D65534 /* DiophantineEquationTests.swift */,
+			);
+			path = DiophantineEquationTests;
+			sourceTree = "<group>";
+		};
+		ABD1156E29CE405C00D65534 /* DiophantineEquationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABD1156F29CE405C00D65534 /* DiophantineEquationUITests.swift */,
+				ABD1157129CE405C00D65534 /* DiophantineEquationUITestsLaunchTests.swift */,
+			);
+			path = DiophantineEquationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABD1155029CE405700D65534 /* DiophantineEquation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABD1157529CE405C00D65534 /* Build configuration list for PBXNativeTarget "DiophantineEquation" */;
+			buildPhases = (
+				ABD1154D29CE405700D65534 /* Sources */,
+				ABD1154E29CE405700D65534 /* Frameworks */,
+				ABD1154F29CE405700D65534 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiophantineEquation;
+			productName = DiophantineEquation;
+			productReference = ABD1155129CE405700D65534 /* DiophantineEquation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABD1156029CE405C00D65534 /* DiophantineEquationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABD1157829CE405C00D65534 /* Build configuration list for PBXNativeTarget "DiophantineEquationTests" */;
+			buildPhases = (
+				ABD1155D29CE405C00D65534 /* Sources */,
+				ABD1155E29CE405C00D65534 /* Frameworks */,
+				ABD1155F29CE405C00D65534 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABD1156329CE405C00D65534 /* PBXTargetDependency */,
+			);
+			name = DiophantineEquationTests;
+			productName = DiophantineEquationTests;
+			productReference = ABD1156129CE405C00D65534 /* DiophantineEquationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABD1156A29CE405C00D65534 /* DiophantineEquationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABD1157B29CE405C00D65534 /* Build configuration list for PBXNativeTarget "DiophantineEquationUITests" */;
+			buildPhases = (
+				ABD1156729CE405C00D65534 /* Sources */,
+				ABD1156829CE405C00D65534 /* Frameworks */,
+				ABD1156929CE405C00D65534 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABD1156D29CE405C00D65534 /* PBXTargetDependency */,
+			);
+			name = DiophantineEquationUITests;
+			productName = DiophantineEquationUITests;
+			productReference = ABD1156B29CE405C00D65534 /* DiophantineEquationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABD1154929CE405700D65534 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					ABD1155029CE405700D65534 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					ABD1156029CE405C00D65534 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = ABD1155029CE405700D65534;
+					};
+					ABD1156A29CE405C00D65534 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = ABD1155029CE405700D65534;
+					};
+				};
+			};
+			buildConfigurationList = ABD1154C29CE405700D65534 /* Build configuration list for PBXProject "DiophantineEquation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABD1154829CE405700D65534;
+			productRefGroup = ABD1155229CE405700D65534 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABD1155029CE405700D65534 /* DiophantineEquation */,
+				ABD1156029CE405C00D65534 /* DiophantineEquationTests */,
+				ABD1156A29CE405C00D65534 /* DiophantineEquationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABD1154F29CE405700D65534 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD1155C29CE405C00D65534 /* Preview Assets.xcassets in Resources */,
+				ABD1155929CE405C00D65534 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD1155F29CE405C00D65534 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD1156929CE405C00D65534 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABD1154D29CE405700D65534 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD1155729CE405700D65534 /* ContentView.swift in Sources */,
+				ABD1155529CE405700D65534 /* DiophantineEquationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD1155D29CE405C00D65534 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD1156629CE405C00D65534 /* DiophantineEquationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD1156729CE405C00D65534 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD1157229CE405C00D65534 /* DiophantineEquationUITestsLaunchTests.swift in Sources */,
+				ABD1157029CE405C00D65534 /* DiophantineEquationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABD1156329CE405C00D65534 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABD1155029CE405700D65534 /* DiophantineEquation */;
+			targetProxy = ABD1156229CE405C00D65534 /* PBXContainerItemProxy */;
+		};
+		ABD1156D29CE405C00D65534 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABD1155029CE405700D65534 /* DiophantineEquation */;
+			targetProxy = ABD1156C29CE405C00D65534 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ABD1157329CE405C00D65534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABD1157429CE405C00D65534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABD1157629CE405C00D65534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DiophantineEquation/Preview Content\"";
+				DEVELOPMENT_TEAM = 6DH995SKH8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jsock.DiophantineEquation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABD1157729CE405C00D65534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DiophantineEquation/Preview Content\"";
+				DEVELOPMENT_TEAM = 6DH995SKH8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jsock.DiophantineEquation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ABD1157929CE405C00D65534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6DH995SKH8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jsock.DiophantineEquationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiophantineEquation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DiophantineEquation";
+			};
+			name = Debug;
+		};
+		ABD1157A29CE405C00D65534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6DH995SKH8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jsock.DiophantineEquationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiophantineEquation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DiophantineEquation";
+			};
+			name = Release;
+		};
+		ABD1157C29CE405C00D65534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6DH995SKH8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jsock.DiophantineEquationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DiophantineEquation;
+			};
+			name = Debug;
+		};
+		ABD1157D29CE405C00D65534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6DH995SKH8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jsock.DiophantineEquationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DiophantineEquation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABD1154C29CE405700D65534 /* Build configuration list for PBXProject "DiophantineEquation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD1157329CE405C00D65534 /* Debug */,
+				ABD1157429CE405C00D65534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABD1157529CE405C00D65534 /* Build configuration list for PBXNativeTarget "DiophantineEquation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD1157629CE405C00D65534 /* Debug */,
+				ABD1157729CE405C00D65534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABD1157829CE405C00D65534 /* Build configuration list for PBXNativeTarget "DiophantineEquationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD1157929CE405C00D65534 /* Debug */,
+				ABD1157A29CE405C00D65534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABD1157B29CE405C00D65534 /* Build configuration list for PBXNativeTarget "DiophantineEquationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD1157C29CE405C00D65534 /* Debug */,
+				ABD1157D29CE405C00D65534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABD1154929CE405700D65534 /* Project object */;
+}
